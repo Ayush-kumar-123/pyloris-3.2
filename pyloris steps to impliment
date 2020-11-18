@@ -1,0 +1,28 @@
+These instruction will help you to install pyloris and impliment it.
+AS YOU KNOW IT IS Denial of Service Tool Written in Python.
+I have tried it on my localhost and some my small website,it does slow it down but not complitely
+you can play with its settings and maybe do it complitely.
+
+you can download here:
+https://sourceforge.net/projects/pyloris/files/pyloris/3.2/
+THESE files have modules that are compitable  with python-2.x
+but i used in python 3.x ,you can find some errors and bugs but that can be corrected.
+(use of code editor like pycharm is helpful)
+i will give code as correction
+
+download tor and vidalia-relay-bundle for tor swicher.
+Go to settings->advance settings->uncheck random passcode->give your passcode
+and type it in tor switcher.
+(this you will not find it in youtube and helpful)
+
+some tips:
+import _thread as thread
+import queue as Queue
+import tkinter(not Tkinter)
+
+errors are mostly find in:
+pyloris.py
+libloris.py
+tor_switcher.py
+
+
